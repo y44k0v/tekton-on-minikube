@@ -165,3 +165,24 @@ Waiting for logs to be available...
 [deploy : echo-message] Deploying main branch of https://github.com/ibm-developer-skills-network/wtecc-CICD_PracticeCode.git ...
 
 ```
+
+## Useful Commands
+
+The following commands help you understand and effectively use the Tekton CLI:
+
+ * `tkn help:` Displays a list of the commands with helpful information.
+ * [`tkn bundle:`](docs/cmd/tkn_bundle.md) Manage Tekton [bundles](https://github.com/tektoncd/pipeline/blob/main/docs/tekton-bundle-contracts.md)
+ * [`tkn clustertask:`](docs/cmd/tkn_clustertask.md) Parent command of the ClusterTask command group.
+ * [`tkn clustertriggerbinding:`](docs/cmd/tkn_clustertriggerbinding.md) Parent command of the ClusterTriggerBinding command group.
+ * [`tkn completion:`](docs/cmd/tkn_completion.md) Outputs a BASH, ZSH, Fish or PowerShell completion script for `tkn` to allow command completion with Tab.
+ * [`tkn eventlistener:`](docs/cmd/tkn_eventlistener.md) Parent command of the Eventlistener command group.
+ * [`tkn hub:`](docs/cmd/tkn_hub.md) Search and install Tekton Resources from [Hub](https://hub.tekton.dev)
+ * [`tkn pipeline:`](docs/cmd/tkn_pipeline.md) Parent command of the Pipeline command group.
+ * [`tkn pipelinerun:`](docs/cmd/tkn_pipelinerun.md) Parent command of the Pipelinerun command group.
+ * [`tkn task:`](docs/cmd/tkn_task.md) Parent command of the Task command group.
+ * [`tkn taskrun:`](docs/cmd/tkn_taskrun.md) Parent command of the Taskrun command group.
+ * [`tkn triggerbinding:`](docs/cmd/tkn_triggerbinding.md) Parent command of the Triggerbinding command group.
+ * [`tkn triggertemplate:`](docs/cmd/tkn_triggertemplate.md) Parent command of the Triggertemplate command group.
+ * [`tkn version:`](docs/cmd/tkn_version.md) Outputs the cli version.
+
+For every `tkn` command, you can use `-h` or `--help` flags to display specific help for that command.
